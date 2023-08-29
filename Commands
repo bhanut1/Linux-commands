@@ -1,0 +1,27 @@
+ls
+ls -l   # Long format listing
+ls -a   # Show hidden files
+cd /path/to/directory
+cd ..   # Move to parent directory
+mkdir dirname
+rm filename
+rm -r dirname   # Recursively remove a directory
+cp source destination
+cp -r source_dir destination_dir   # Recursively copy a directory
+mv oldname newname
+mv file /path/to/new/location
+touch filename      #create empty filename
+cat filename      #display contents
+nano filename        #editors
+vim filename        #editors
+grep pattern filename
+chmod permissions filename
+chown user:group filename
+ps aux   # Detailed process list
+kill process_id
+df -h   # Human-readable sizes
+du -h filename
+wget URL         #download from internet
+ tar -cvf archive.tar files   # Create archive
+tar -xvf archive.tar         # Extract archive
+systemctl #control system services
